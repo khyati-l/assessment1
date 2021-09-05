@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- Website Styling -->
+<style>
+    html{
+
+    }
+
+    :root {
+        --primaryCol1 : #f6b26bff;
+        --primaryCol2 : rgb(38, 70, 130);
+        --primaryCol3 : #C6E2A5;
+        --primaryCol4 : #f3f3f3ff;
+    }
+
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+    }
+        /* Banner */
+    #banner {
+        background-color: var(--primaryCol4);
+        color: black;
+        padding : 0;
+        padding-bottom : 10px;
+        margin : 0;
+        height : 100vw;
+    }
+
+    #banner h2 { 
+        padding :0 10px;
+    }
+
+    #banner img {
+        top : 0px;
+        left:0px;
+        padding:10px;
+        margin:0;     
+    }
+
+    #contact {
+        position: absolute;
+        right : 0;
+        padding : 5p  
+    }
+        /* Navigation Bar */
+    #navbar {
+        background-color: var(--primaryCol4);
+       font-weight: bold;
+       height : 40vw;
+   }
+   #navbar ul {
+       display : flex;
+       flex-direction:row;
+       list-style:none;
+       margin:0;
+   }
+   #navbar li {
+       padding : 5px 20px;
+       margin : 10px;
+   }
+
+        /* Daily Deal */
+    #promo img{
+
+    }
+</style>
+
+<!-- Website Formatting -->
+    <!-- Main Page -->
+<body> 
+    <div id= >
+        <div id="banner">
+            <img src="logo.png" alt="" width  = 100px>
+            <contact id=contact>
+                <h2>
+                Cafe Patisserie
+                <p>Phone 04 8213 6789</p>
+           </h2>
+            </contact>
+        </div>
+
+        <!-- Navigation Bar -->
+        <div id=navbar>
+             <ul>
+                <li>Coffee</li>
+                <li>Cakes</li>
+                <li>About</li>
+                <li>Quiz</li>
+            </ul>
+        </div>
+
+        <!-- Daily Deal -->
+        <div id="promo">
+            <img src="ckecks.jpeg" alt="" width  = 1000vw>
+        </div>
+    </div>
+</body>
+</html>
